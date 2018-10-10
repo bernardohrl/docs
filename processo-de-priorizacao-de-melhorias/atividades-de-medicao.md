@@ -1,6 +1,10 @@
 # Processo de Medição
 
-### Atividades de Coleta de Dados
+| Atividade | Grau de Definição |
+| :--- | :--- |
+|  |  |
+
+## Atividades de Coleta de Dados
 
 |  |  |
 | :--- | :--- |
