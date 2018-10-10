@@ -26,109 +26,101 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ## Caracterização das Práticas de Implementação
 
-| Caracterização | Sigla | Requisitos |
-| :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">
+      <th style="text-align:left">Caracterização</th>
+      <th style="text-align:left">Sigla</th>
+      <th style="text-align:left">Requisitos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
         <p>Totalmente implementado</p>
         <p><em>(Fully Implemented)</em>
         </p>
-      </th>
-      <th style="text-align:left">FI</th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">
+        <p></p>
         <ul>
           <li>Artefatos diretos presentes e julgados adequados;</li>
           <li>Apoiado por artefato indireto e/ou afirmação;</li>
           <li>Nenhuma deficiência na aplicação prática.</li>
         </ul>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
     <tr>
-      <th style="text-align:left">
+      <td style="text-align:left">
         <p>Largamente Implementado</p>
         <p><em>(Largely Implemented)</em>
         </p>
-      </th>
-      <th style="text-align:left">LI</th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">LI</td>
+      <td style="text-align:left">
+        <p></p>
         <ul>
-          <li>Artefatos diretos presentes e adequados;</li>
+          <li>Artefatos diretos presentes e julgados adequados;</li>
           <li>Apoiado por artefato indireto e/ou afirmação;</li>
-          <li>Uma ou mais fraquezas encontradas.</li>
+          <li>Nenhuma deficiência na aplicação prática.</li>
         </ul>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
     <tr>
-      <th style="text-align:left">
+      <td style="text-align:left">
         <p>Parcialmente implementado</p>
         <p><em>(Partially Implemented)</em>
         </p>
-      </th>
-      <th style="text-align:left">PI</th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">PI</td>
+      <td style="text-align:left">
+        <p></p>
         <ul>
           <li>Artefato diretos ausentes ou são julgados inadequados;</li>
           <li>Artefatos ou afirmação indicam que alguns aspectos da práticas estão implementados;</li>
           <li>Uma ou mais fraquezas encontradas.</li>
         </ul>
         <p>ou</p>
+        <p></p>
         <ul>
           <li>Artefatos diretos presentes e adequados;</li>
           <li>Nenhuma outra evidência apoio os artefatos diretos;</li>
           <li>Uma ou mais fraquezas encontradas.</li>
         </ul>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
     <tr>
-      <th style="text-align:left">
+      <td style="text-align:left">
         <p>Não implementado</p>
         <p><em>(Not implemented)</em>
         </p>
-      </th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">NI</td>
+      <td style="text-align:left">
+        <p></p>
         <ul>
           <li>Artefatos diretos ausentes e/ou julgados inadequados;</li>
           <li>Nenhuma outra evidência apoia os artefatos diretos;</li>
           <li>Uma ou mais fraquezas foram encontradas.</li>
         </ul>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
     <tr>
-      <th style="text-align:left">
+      <td style="text-align:left">
         <p>Não implementado ainda</p>
         <p><em>(Not Yet)</em>
         </p>
-      </th>
-      <th style="text-align:left">NY</th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">NY</td>
+      <td style="text-align:left">
+        <p></p>
         <ul>
           <li>O projeto não alcançou o estágio esperado no ciclo de vida.</li>
         </ul>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
+  </tbody>
 </table>## Processo de Desenvolvimento
 
 ### Atividades de Planejamento
