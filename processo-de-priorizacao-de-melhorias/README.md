@@ -232,6 +232,32 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ### Atividades de Definição
 
+### Atividades de Planejamento
+
+| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Separação de Milestones | FI | NI | Criação e atualização de milestones | Should Have | A separação de milestones é importante para a melhor organização das tarefas, apresentando em qual ciclo do projeto elas foram realizadas. |
+| Utilização do Kanban | FI | PI | Atualizar o zenhub | Shoud Have | Utilizar o kanban é de grande importancia para que, tanto o time quanto observadores, estejam aptos a saber o progresso do trabalho. |
+| Utilização de Labels | FI | FI | - | - | - |
+| Burndown | FI | NI | Gerar burndown a partir do zenhub | Could Have | Todo projeto que possui trabalho mensuravel por tempo pode possuir um burndown, porém é dispensável. |
+
+### Atividades de Coleta de Dados
+
+| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Definição de Template para Coleta de Dados | FI | FI | - | - | - |
+| Coleta de Dados | LI | LI | - | Must Have | - |
+
+### Atividades de Interpretação
+
+| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Analisar Dados | FI | FI | - | - | - |
+| Comunicar Resultado | LI | LI | Todos os resultados devem ser postados na wiki e comunicados através de issues no GitHub | Must Have | Falta centralização e transparência dos resultados obtidos |
+| Identificar Melhorias | NI | NI | As melhorias devem ser identificadas em forma de planilhas deixando claras as atividades a serem refatoradas. | Must Have | As melhorias precisam ser documentadas de maneira clara para facilitar a execução. |
+
+### Auditoria
+
 <table>
   <thead>
     <tr>
@@ -298,18 +324,7 @@ Falar sobre o método utilizado para definição das priorizações.
       <td style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</td>
     </tr>
   </tbody>
-</table>### Atividades de Planejamento
-
-| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Separação de Milestones | FI | NI | Criação e atualização de milestones | Should Have | A separação de milestones é importante para a melhor organização das tarefas, apresentando em qual ciclo do projeto elas foram realizadas. |
-| Utilização do Kanban | FI | PI | Atualizar o zenhub | Shoud Have | Utilizar o kanban é de grande importancia para que, tanto o time quanto observadores, estejam aptos a saber o progresso do trabalho. |
-| Utilização de Labels | FI | FI | - | - | - |
-| Burndown | FI | NI | Gerar burndown a partir do zenhub | Could Have | Todo projeto que possui trabalho mensuravel por tempo pode possuir um burndown, porém é dispensável. |
-
-### Auditoria
-
-| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+</table>| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Definir objeto de auditoria | FI | FI | - | - | - |
 | Uso de Checklist | FI | LI | Terminar de implementar o checklist em todos as auditorias. Atualmente apenas 6 de 10 foram implementadas. | Must Have | O checklist é um elemento essencial para a aplicação e relato dos resultados da auditoria. |
