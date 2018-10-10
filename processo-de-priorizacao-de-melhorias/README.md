@@ -232,45 +232,72 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ### Atividades de Definição
 
-| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Criar/Revisar plano de medição | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Estabelecer objetivos de medição | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Especificar questões | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Identificar métricas | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Validar objetivos, questões e métricas | NI | NI | Produzir um artefato que comprove a execução dessa atividade. | Must Have | A inexistência de um artefato que comprove a execução da atividade compromete a mitigação de problemas. |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Definir rastreabilidade</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">
-        <p>Detalhar a atividade e o processo de rastreio.</p>
-        <p>Especificar documento de rastreabilidade.</p>
-      </th>
-      <th style="text-align:left">Must Have</th>
-      <th style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</th>
+      <th style="text-align:left">Atividade</th>
+      <th style="text-align:left">Grau de Definição</th>
+      <th style="text-align:left">Grau de Implementação</th>
+      <th style="text-align:left">Ação de Melhoria</th>
+      <th style="text-align:left">Prioridade</th>
+      <th style="text-align:left">Justificativa</th>
     </tr>
   </thead>
-  <tbody></tbody>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Criar/Revisar plano de medição</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Estabelecer objetivos de medição</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Especificar questões</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Identificar métricas</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">FI</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Validar objetivos, questões e métricas</td>
+      <td style="text-align:left">NI</td>
+      <td style="text-align:left">NI</td>
+      <td style="text-align:left">Produzir um artefato que comprove a execução dessa atividade.</td>
+      <td
+      style="text-align:left">Must Have</td>
+        <td style="text-align:left">A inexistência de um artefato que comprove a execução da atividade compromete
+          a mitigação de problemas.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Definir rastreabilidade</td>
+      <td style="text-align:left">NI</td>
+      <td style="text-align:left">NI</td>
+      <td style="text-align:left">
+        <p>Detalhar a atividade e o processo de rastreio.</p>
+        <p>Especificar documento de rastreabilidade.</p>
+      </td>
+      <td style="text-align:left">Must Have</td>
+      <td style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</td>
+    </tr>
+  </tbody>
 </table>### Atividades de Planejamento
 
 | Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
