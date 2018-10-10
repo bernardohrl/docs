@@ -128,6 +128,18 @@ Falar sobre o método utilizado para definição das priorizações.
 | Validar requisitos    | FI                | FI                    | -                                                                                                                                                          | -          | -                                                                                                                                                                  |
 | Planejar Release      | NI                | PI                    | <ul><li>Alterar processo para embarcar a equipe da auditoria, que já existe.</li><li>Detalhar atividades.</li></ul>                                                              | Must Have  | Inadequado por definir auditoria para a equipe de desenvolvimento, deve ser direcionada a uma equipe específica para esta proposta.                                |
 
+### Atividade de Desenvolvimento
+
+| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Planejar Sprint | LI | FI | Documentar corretamente a participação do PO e do Scrum Master, que estão sem definição clara de respsonsabilidades. | Must Have | Os papeis do PO e do Scrum Master são de suma importância para o andamento do projeto, principalmente no que tange a definição do produto e produtividade da equipe. |
+| Desenvolver | FI | FI | - | - | - |
+| Testar | FI | FI | - | - | - |
+| Realizar stand-up | FI | NI | Realizar stand-up/ daily meeting remoto por texto no dia anterior a aula. | Must Have | Realizado antes da aula é possível se preparar para atividades corretivas e melhorias no dia da aula. |
+| Integrar | FI | FI | - | - | - |
+| Revisar | FI | FI | - | - | - |
+| Realizar Retrospectiva | FI | FI | - | - | - |
+
 ## Processo de Medição
 
 
