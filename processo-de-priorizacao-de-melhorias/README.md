@@ -117,6 +117,17 @@ Falar sobre o método utilizado para definição das priorizações.
   </tbody>
 </table>Fonte: Slide de Modelo de avaliação disponibilizado pela professora.
 
+## Processo de Desenvolvimento
+### Atividades de Planejamento
+|       Atividade       | Grau de Definição | Grau de Implementação |                                                                      Ação de Melhoria                                                                      | Prioridade |                                                                            Justificativa                                                                           |
+|:---------------------:|:-----------------:|:---------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Elicitar requisitos   | FI                | FI                    | -                                                                                                                                                          | -          | -                                                                                                                                                                  |
+| Analisar requisitos   | NI                | FI                    | <ul><li>Refinamento deve ser feito internamente na equipe, como definição de escopo e de viabilidade do projeto.</li><li>Especificar tarefa de viabilidade do projeto.</li> </ul>  | Could Have | A ausência de uma tarefa de viabilidade do projeto prejudica a definição de um escopo de maior valor.                                                              |
+| Refinar requisitos    | PI                | FI                    | Retirar essa parte do processo, que é redundante com a atividade de Validar Requisito.                                                                     | Could Have | Evita retrabalho mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada.                                                    |
+| Documentar requisitos | PI                | FI                    | Definir melhor a granularidade dos requisitos e definição de hierarquia dos requisitos.                                                                    | Could Have | O maior detalhamento dos requisitos permite uma melhor compreensão, mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
+| Validar requisitos    | FI                | FI                    | -                                                                                                                                                          | -          | -                                                                                                                                                                  |
+| Planejar Release      | NI                | PI                    | <ul><li>Alterar processo para embarcar a equipe da auditoria, que já existe.</li><li>Detalhar atividades.</li></ul>                                                              | Must Have  | Inadequado por definir auditoria para a equipe de desenvolvimento, deve ser direcionada a uma equipe específica para esta proposta.                                |
+
 ## Processo de Medição
 
 
