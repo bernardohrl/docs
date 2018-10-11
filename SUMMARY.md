@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Modelo de Melhoria de Processo de Software](README.md)
+* [Processo de Medição e Análise](atividades-de-medicao.md)
 * [Plano de Medição](plano-de-medicao.md)
-* [Processo de Priorização de Melhorias](processo-de-priorizacao-de-melhorias/README.md)
-  * [1. Processo de Medição e Análise](processo-de-priorizacao-de-melhorias/atividades-de-medicao.md)
+* [Processo de Priorização de Melhorias](processo-de-priorizacao-de-melhorias.md)
 
 ## Desenvolvimento
 

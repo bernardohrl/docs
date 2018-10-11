@@ -1,10 +1,10 @@
-# 1. Processo de Medição e Análise
+# Processo de Medição e Análise
 
 ## 
 
 ### 
 
-![](../.gitbook/assets/processo.png)
+![](.gitbook/assets/processo.png)
 
 ### 1.1. Atividades do Subprocesso de Medição e Análise
 
