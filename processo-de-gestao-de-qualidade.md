@@ -46,3 +46,43 @@ Este processo descreve as atividades de auditoria de todas as áreas da organiza
 * **Tarefas:** 
     * Definir critérios.
 
+
+
+### Definir Técnicas de Auditoria
+
+* **Descrição:** Diferentes etapas do processo podem exigir a utilização de técnicas diferentes (checklist, entrevista, conferência de calculos, entre outras), assim deve-se definir quais serão as mais adequadas para cada etapa.
+
+* **Responsável:** Time de gestão de qualidade.
+* **Participantes:** Time de gestão de qualidade.
+* **Produto Gerado:** Planejamento de Auditoria Atualizado.
+* **Próxima Atividade:** Executar auditoria.
+* **Tarefas:** 
+    * Definir técnicas que serão utilizadas.
+
+
+### Executar Auditoria
+
+* **Descrição:** Execução das auditorias de acordo com o planejamento.
+
+* **Responsável:** Time de gestão de qualidade.
+* **Participantes:** Time de gestão de qualidade.
+* **Produto Gerado:** Resultado das auditorias.
+* **Próxima Atividade:** Análise de Resultado do Ciclo.
+* **Tarefas:** 
+    * Definir auditores.
+    * Definir data.
+    * Apresentar estatus de conformidade e não conformidade, apontando evidencias utilizadas.
+
+
+
+### Análise de Resultado do Ciclo
+
+* **Descrição:** Execução das auditorias de acordo com o planejamento.
+
+* **Responsável:** Time de gestão de qualidade.
+* **Participantes:** Time de gestão de qualidade.
+* **Produto Gerado:** Análise do ciclo.
+* **Próxima Atividade:** Levantar Objetos de Auditoria ou Finalização do processo.
+* **Tarefas:** 
+    * Realizar análise de resultdo do ciclo de acordo com os objetivos levantados.
+    * Levantar Propostas de intervenção e melhorias.
