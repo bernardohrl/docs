@@ -224,6 +224,10 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ### Atividades de Definição
 
+| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |  |
+
 ### Atividades de Planejamento
 
 | Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
