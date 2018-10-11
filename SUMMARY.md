@@ -2,6 +2,7 @@
 
 * [Modelo de Melhoria de Processo de Software](README.md)
 * [Processo de Medição e Análise](atividades-de-medicao.md)
+* [Processo de Desenvolvimento](processo-desenvolvimento.md)
 * [Plano de Medição](plano-de-medicao.md)
 * [Processo de Priorização de Melhorias](processo-de-priorizacao-de-melhorias.md)
 
