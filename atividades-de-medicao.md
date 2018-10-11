@@ -93,7 +93,59 @@ No contexto atual a equipe de processo e equipe de desenvolvimento atual como eq
 * **Tarefa:** 
   * Verificar a consistência e completude das métricas, questões e objetivos.
 
-####  
+#### 1.1.9. Definir Rastreabilidade 
+
+* **Descrição** Após as métricas, questões e objetivos estiverem validados, definir a rastreabilidade das mesmas.
+* **Responsável** Equipe de medição.
+* **Participantes** Equipe de medição.
+* **Produto Gerado** Diagrama de rastreabilidade.
+* **Tarefas:** 
+  * Inserir o diagrama no documento GQM
+
+#### 1.1.10. Criar template de coleta
+
+* **Descrição** Criar um template para começar a coleta de métricas.
+* **Responsável** Equipe de medição.
+* **Participantes** Equipe de medição.
+* **Produto Gerado** Template de coleta.
+* **Tarefas:** 
+  * Criar um template de coleta de dados
+
+#### 1.1.11. Coleta de dados
+
+* **Descrição** Executar o plano de medição, realizando as medições definidas e armazenando os resultados.
+* **Responsável** Equipe de medição.
+* **Participantes** Equipe de medição.
+* **Produto Gerado** Métricas de processo, produto e equipe coletados.
+* **Tarefas:** 
+  * Documentar os dados coletados, utilizando um template de coleta para padronização.
+
+#### 1.1.12 Análise de dados
+
+* **Descrição** Envolvidos analisam e interpretam as medições.
+* **Responsável** Equipe de medição.
+* **Participantes** Equipe de medição.
+* **Produto Gerado** Relatório de Feedbacks.
+* **Tarefas:** 
+  * Analisar e interpretar os dados e gerar o relatório de feedback.
+
+#### 1.1.13 Comunicar resultados
+
+* **Descrição** Comunicar aos envolvidos os resultados da métricas coletadas no relatório para que se possa identificar melhorias e implementa-las.
+* **Responsável** Equipe de medição.
+* **Participantes** Todas as equipes.
+* **Produto Gerado** N/A.
+* **Tarefas:** 
+  * Mostrar relatório de feedbacks aos envolvidos
+
+#### 1.1.14 Identificar melhorias
+
+* **Descrição** O relatório deve conter todas as medições coletadas, interpretações, conclusões e Ações a serem tomadas a partir dos resultados.
+* **Responsável** Equipe de medição.
+* **Participantes** Equipe de medição.
+* **Produto Gerado** Relatório de melhorias.
+* **Tarefas** :
+  * Gerar o relatório de melhorias
 
 #### 
 
