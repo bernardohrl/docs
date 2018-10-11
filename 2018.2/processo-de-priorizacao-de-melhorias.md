@@ -26,183 +26,165 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ## Caracterização das Práticas de Implementação
 
+| Caracterização | Sigla | Requisitos |
+| :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Caracterização</th>
-      <th style="text-align:left">Sigla</th>
-      <th style="text-align:left">Requisitos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p>Totalmente implementado</p>
         <p><em>(Fully Implemented)</em>
         </p>
-      </td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">
-        <p></p>
+      </th>
+      <th style="text-align:left">FI</th>
+      <th style="text-align:left">
         <ul>
           <li>Artefatos diretos presentes e julgados adequados;</li>
           <li>Apoiado por artefato indireto e/ou afirmação;</li>
           <li>Nenhuma deficiência na aplicação prática.</li>
         </ul>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p>Largamente Implementado</p>
         <p><em>(Largely Implemented)</em>
         </p>
-      </td>
-      <td style="text-align:left">LI</td>
-      <td style="text-align:left">
-        <p></p>
+      </th>
+      <th style="text-align:left">LI</th>
+      <th style="text-align:left">
         <ul>
           <li>Artefatos diretos presentes e julgados adequados;</li>
           <li>Apoiado por artefato indireto e/ou afirmação;</li>
           <li>Nenhuma deficiência na aplicação prática.</li>
         </ul>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p>Parcialmente implementado</p>
         <p><em>(Partially Implemented)</em>
         </p>
-      </td>
-      <td style="text-align:left">PI</td>
-      <td style="text-align:left">
-        <p></p>
+      </th>
+      <th style="text-align:left">PI</th>
+      <th style="text-align:left">
         <ul>
           <li>Artefato diretos ausentes ou são julgados inadequados;</li>
           <li>Artefatos ou afirmação indicam que alguns aspectos da práticas estão implementados;</li>
           <li>Uma ou mais fraquezas encontradas.</li>
         </ul>
         <p>ou</p>
-        <p></p>
         <ul>
           <li>Artefatos diretos presentes e adequados;</li>
           <li>Nenhuma outra evidência apoio os artefatos diretos;</li>
           <li>Uma ou mais fraquezas encontradas.</li>
         </ul>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p>Não implementado</p>
         <p><em>(Not implemented)</em>
         </p>
-      </td>
-      <td style="text-align:left">NI</td>
-      <td style="text-align:left">
-        <p></p>
+      </th>
+      <th style="text-align:left">NI</th>
+      <th style="text-align:left">
         <ul>
           <li>Artefatos diretos ausentes e/ou julgados inadequados;</li>
           <li>Nenhuma outra evidência apoia os artefatos diretos;</li>
           <li>Uma ou mais fraquezas foram encontradas.</li>
         </ul>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p>Não implementado ainda</p>
         <p><em>(Not Yet)</em>
         </p>
-      </td>
-      <td style="text-align:left">NY</td>
-      <td style="text-align:left">
-        <p></p>
+      </th>
+      <th style="text-align:left">NY</th>
+      <th style="text-align:left">
         <ul>
           <li>O projeto não alcançou o estágio esperado no ciclo de vida.</li>
         </ul>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>## Processo de Desenvolvimento
+  </thead>
+  <tbody></tbody>
+</table>### Atividades de Planejamento
 
-### Atividades de Planejamento
+| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Elicitar requisitos | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:center">Atividade</th>
-      <th style="text-align:center">Grau de Definição</th>
-      <th style="text-align:center">Grau de Implementação</th>
-      <th style="text-align:center">Ação de Melhoria</th>
-      <th style="text-align:center">Prioridade</th>
-      <th style="text-align:center">Justificativa</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center">Elicitar requisitos</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Analisar requisitos</td>
-      <td style="text-align:center">NI</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">
+      <th style="text-align:left">Analisar requisitos</th>
+      <th style="text-align:left">NI</th>
+      <th style="text-align:left">FI</th>
+      <th style="text-align:left">
         <p>Refinamento deve ser feito internamente na equipe, como definição de escopo
           e de viabilidade do projeto.</p>
         <p>Especificar tarefa de viabilidade do projeto.</p>
-      </td>
-      <td style="text-align:center">Could Have</td>
-      <td style="text-align:center">A ausência de uma tarefa de viabilidade do projeto prejudica a definição
-        de um escopo de maior valor.</td>
+      </th>
+      <th style="text-align:left">Could Have</th>
+      <th style="text-align:left">A ausência de uma tarefa de viabilidade do projeto prejudica a definição
+        de um escopo de maior valor.</th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>| Refinar requisitos | PI | FI | Retirar essa parte do processo, que é redundante com a atividade de Validar Requisito. | Could Have | Evita retrabalho mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Documentar requisitos | PI | FI | Definir melhor a granularidade dos requisitos e definição de hierarquia dos requisitos. | Could Have | O maior detalhamento dos requisitos permite uma melhor compreensão, mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Validar requisitos | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:center">Refinar requisitos</td>
-      <td style="text-align:center">PI</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">Retirar essa parte do processo, que é redundante com a atividade de Validar
-        Requisito.</td>
-      <td style="text-align:center">Could Have</td>
-      <td style="text-align:center">Evita retrabalho mas não é tão essencial porque a atividade relacionada
-        a elicitar requisitos já foi realizada.</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Documentar requisitos</td>
-      <td style="text-align:center">PI</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">Definir melhor a granularidade dos requisitos e definição de hierarquia
-        dos requisitos.</td>
-      <td style="text-align:center">Could Have</td>
-      <td style="text-align:center">O maior detalhamento dos requisitos permite uma melhor compreensão, mas
-        não é tão essencial porque a atividade relacionada a elicitar requisitos
-        já foi realizada.</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Validar requisitos</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">FI</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Planejar Release</td>
-      <td style="text-align:center">NI</td>
-      <td style="text-align:center">PI</td>
-      <td style="text-align:center">
+      <th style="text-align:left">Planejar Release</th>
+      <th style="text-align:left">NI</th>
+      <th style="text-align:left">PI</th>
+      <th style="text-align:left">
         <p>Alterar processo para embarcar a equipe da auditoria, que já existe.</p>
         <p>Detalhar atividades.</p>
-      </td>
-      <td style="text-align:center">Must Have</td>
-      <td style="text-align:center">Inadequado por definir auditoria para a equipe de desenvolvimento, deve
-        ser direcionada a uma equipe específica para esta proposta.</td>
+      </th>
+      <th style="text-align:left">Must Have</th>
+      <th style="text-align:left">Inadequado por definir auditoria para a equipe de desenvolvimento, deve
+        ser direcionada a uma equipe específica para esta proposta.</th>
     </tr>
-  </tbody>
-</table>### Atividade de Desenvolvimento
-
-| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+  </thead>
+  <tbody></tbody>
+</table>| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Planejar Sprint | LI | FI | Documentar corretamente a participação do PO e do Scrum Master, que estão sem definição clara de respsonsabilidades. | Must Have | Os papeis do PO e do Scrum Master são de suma importância para o andamento do projeto, principalmente no que tange a definição do produto e produtividade da equipe. |
 | Desenvolver | FI | FI | - | - | - |
@@ -224,75 +206,46 @@ Falar sobre o método utilizado para definição das priorizações.
 
 ### Atividades de Definição
 
+| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Criar/Revisar plano de medição | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Estabelecer objetivos de medição | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Especificar questões | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Identificar métricas | FI | FI | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| Validar objetivos, questões e métricas | NI | NI | Produzir um artefato que comprove a execução dessa atividade. | Must Have | A inexistência de um artefato que comprove a execução da atividade compromete a mitigação de problemas. |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Atividade</th>
-      <th style="text-align:left">Grau de Definição</th>
-      <th style="text-align:left">Grau de Implementação</th>
-      <th style="text-align:left">Ação de Melhoria</th>
-      <th style="text-align:left">Prioridade</th>
-      <th style="text-align:left">Justificativa</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Criar/Revisar plano de medição</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Estabelecer objetivos de medição</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Especificar questões</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Identificar métricas</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">FI</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Validar objetivos, questões e métricas</td>
-      <td style="text-align:left">NI</td>
-      <td style="text-align:left">NI</td>
-      <td style="text-align:left">Produzir um artefato que comprove a execução dessa atividade.</td>
-      <td
-      style="text-align:left">Must Have</td>
-        <td style="text-align:left">A inexistência de um artefato que comprove a execução da atividade compromete
-          a mitigação de problemas.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Definir rastreabilidade</td>
-      <td style="text-align:left">NI</td>
-      <td style="text-align:left">NI</td>
-      <td style="text-align:left">
+      <th style="text-align:left">Definir rastreabilidade</th>
+      <th style="text-align:left">NI</th>
+      <th style="text-align:left">NI</th>
+      <th style="text-align:left">
         <p>Detalhar a atividade e o processo de rastreio.</p>
         <p>Especificar documento de rastreabilidade.</p>
-      </td>
-      <td style="text-align:left">Must Have</td>
-      <td style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</td>
+      </th>
+      <th style="text-align:left">Must Have</th>
+      <th style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</th>
     </tr>
-  </tbody>
-</table>### Atividades de Planejamento
-
-| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+  </thead>
+  <tbody></tbody>
+</table>| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Separação de Milestones | FI | NI | Criação e atualização de milestones | Should Have | A separação de milestones é importante para a melhor organização das tarefas, apresentando em qual ciclo do projeto elas foram realizadas. |
 | Utilização do Kanban | FI | PI | Atualizar o zenhub | Shoud Have | Utilizar o kanban é de grande importancia para que, tanto o time quanto observadores, estejam aptos a saber o progresso do trabalho. |

@@ -4,17 +4,8 @@
 * [Processo de Medição e Análise](atividades-de-medicao.md)
 * [Processo de Desenvolvimento](processo-desenvolvimento.md)
 * [Plano de Medição](plano-de-medicao.md)
-* [Processo de Priorização de Melhorias](processo-de-priorizacao-de-melhorias.md)
 
-## Desenvolvimento
+## 2018.2
 
-* [Documento X](desenvolvimento/documento-x.md)
-
-## Medição
-
-* [Documento X](medicao/documento-x.md)
-
-## GARANTIA DE QUALIDADE
-
-* [Documento X](garantia-de-qualidade/documento-x.md)
+* [Processo de Priorização de Melhorias](2018.2/processo-de-priorizacao-de-melhorias.md)
 
