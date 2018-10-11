@@ -310,9 +310,9 @@ Falar sobre o método utilizado para definição das priorizações.
 
 | Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Analisar Dados | NY | NY | Analisar dados. | - | - |
-| Comunicar Resultado | NY | NY | Todos os resultados devem ser postados na wiki e comunicados através de issues no GitHub | Must Have | Falta centralização e transparência dos resultados obtidos |
-| Identificar Melhorias | NY | NY | As melhorias devem ser identificadas em forma de planilhas deixando claras as atividades a serem refatoradas. | Must Have | As melhorias precisam ser documentadas de maneira clara para facilitar a execução. |
+| Analisar Dados | LI | NY | Analisar dados. | Must Have | - |
+| Comunicar Resultado | LI | NY | Todos os resultados devem ser postados na wiki e comunicados através de issues no GitHub | Must Have | Falta centralização e transparência dos resultados obtidos |
+| Identificar Melhorias | LI | NY | As melhorias devem ser identificadas em forma de planilhas deixando claras as atividades a serem refatoradas. | Must Have | As melhorias precisam ser documentadas de maneira clara para facilitar a execução. |
 
 ### Auditoria
 
