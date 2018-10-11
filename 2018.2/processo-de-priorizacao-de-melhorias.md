@@ -267,6 +267,19 @@ Falar sobre o método utilizado para definição das priorizações.
 | Comunicar Resultado | LI | NY | Todos os resultados devem ser postados na wiki e comunicados através de issues no GitHub | Must Have | Falta centralização e transparência dos resultados obtidos |
 | Identificar Melhorias | LI | NY | As melhorias devem ser identificadas em forma de planilhas deixando claras as atividades a serem refatoradas. | Must Have | As melhorias precisam ser documentadas de maneira clara para facilitar a execução. |
 
+
+
+## Garantia de Qualidade
+
+### Atividades de Planejamento
+
+| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Separação de Milestones | FI | NI | Criação e utilização de milestone. | Should Have | A separação de milestones é importante para a melhor organização das tarefas, apresentando em qual ciclo do projeto elas foram realizadas. |
+| Utlização do Kanban | FI | PI | Atualizar o zenhub. | Should Have | Utilizar o kanban é de grande importancia para que, tanto o time quanto observadores, estejam aptos a saber o progresso do trabalho. |
+| Utilização de Labels | FI | FI | - | - | - |
+| Burndown | FI | NI | Gerar o burndown a partir do zenhub. | Could Have | Todo projeto que possui trabalho mensuravel por tempo pode possuir um burndown, porém é dispensável. |
+
 ### Auditoria
 
 | Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
