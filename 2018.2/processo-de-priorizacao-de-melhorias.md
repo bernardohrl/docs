@@ -28,163 +28,29 @@ Falar sobre o método utilizado para definição das priorizações.
 
 | Caracterização | Sigla | Requisitos |
 | :--- | :--- | :--- |
+| Totalmente implementado <em>(Fully Implemented)</em> | FI | <ul><li>Artefatos diretos presentes e julgados adequados;</li><li>Apoiado por artefato indireto e/ou afirmação;</li><li>Nenhuma deficiência na aplicação prática.</li></ul> |
+| Largamente Implementado <em>(Largely Implemented)</em> | LI | <ul><li>Artefatos diretos presentes e julgados adequados;</li><li>Apoiado por artefato indireto e/ou afirmação;</li><li>Nenhuma deficiência na aplicação prática.</li></ul> |
+| Parcialmente implementado <em>(Partially Implemented)</em> | PI | <ul><li>Artefato diretos ausentes ou são julgados inadequados;</li><li>Artefatos ou afirmação indicam que alguns aspectos da práticas estão implementados;</li><li>Uma ou mais fraquezas encontradas.</li></ul>ou<ul><li>Artefatos diretos presentes e adequados;</li><li>Nenhuma outra evidência apoio os artefatos diretos;</li><li>Uma ou mais fraquezas encontradas.</li></ul>|
+|Não implementado <em>(Not implemented)</em> | NI | <ul><li>Artefatos diretos ausentes e/ou julgados inadequados;</li><li>Nenhuma outra evidência apoia os artefatos diretos;</li><li>Uma ou mais fraquezas foram encontradas.</li></ul> |
+| Não implementado ainda <em>(Not Yet)</em> | NY | <ul><li>O projeto não alcançou o estágio esperado no ciclo de vida.</li></ul> |
 
+## Processo de Desenvolvimento
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Totalmente implementado</p>
-        <p><em>(Fully Implemented)</em>
-        </p>
-      </th>
-      <th style="text-align:left">FI</th>
-      <th style="text-align:left">
-        <ul>
-          <li>Artefatos diretos presentes e julgados adequados;</li>
-          <li>Apoiado por artefato indireto e/ou afirmação;</li>
-          <li>Nenhuma deficiência na aplicação prática.</li>
-        </ul>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Largamente Implementado</p>
-        <p><em>(Largely Implemented)</em>
-        </p>
-      </th>
-      <th style="text-align:left">LI</th>
-      <th style="text-align:left">
-        <ul>
-          <li>Artefatos diretos presentes e julgados adequados;</li>
-          <li>Apoiado por artefato indireto e/ou afirmação;</li>
-          <li>Nenhuma deficiência na aplicação prática.</li>
-        </ul>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Parcialmente implementado</p>
-        <p><em>(Partially Implemented)</em>
-        </p>
-      </th>
-      <th style="text-align:left">PI</th>
-      <th style="text-align:left">
-        <ul>
-          <li>Artefato diretos ausentes ou são julgados inadequados;</li>
-          <li>Artefatos ou afirmação indicam que alguns aspectos da práticas estão implementados;</li>
-          <li>Uma ou mais fraquezas encontradas.</li>
-        </ul>
-        <p>ou</p>
-        <ul>
-          <li>Artefatos diretos presentes e adequados;</li>
-          <li>Nenhuma outra evidência apoio os artefatos diretos;</li>
-          <li>Uma ou mais fraquezas encontradas.</li>
-        </ul>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Não implementado</p>
-        <p><em>(Not implemented)</em>
-        </p>
-      </th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">
-        <ul>
-          <li>Artefatos diretos ausentes e/ou julgados inadequados;</li>
-          <li>Nenhuma outra evidência apoia os artefatos diretos;</li>
-          <li>Uma ou mais fraquezas foram encontradas.</li>
-        </ul>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Não implementado ainda</p>
-        <p><em>(Not Yet)</em>
-        </p>
-      </th>
-      <th style="text-align:left">NY</th>
-      <th style="text-align:left">
-        <ul>
-          <li>O projeto não alcançou o estágio esperado no ciclo de vida.</li>
-        </ul>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>### Atividades de Planejamento
+### Atividades de Planejamento
+
+|       Atividade       | Grau de Definição | Grau de Implementação |                                                                      Ação de Melhoria                                                                      | Prioridade |                                                                            Justificativa                                                                           |
+|:---------------------:|:-----------------:|:---------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Elicitar requisitos   | FI                | FI                    | -                                                                                                                                                          | -          | -                                                                                                                                                                  |
+| Analisar requisitos   | NI                | FI                    | <ul><li> Refinamento deve ser feito internamente na equipe, como definição de escopo e de viabilidade do projeto. </li><li> Especificar tarefa de viabilidade do projeto. </li></ul> | Could Have | A ausência de uma tarefa de viabilidade do projeto prejudica a definição de um escopo de maior valor.                                                              |
+| Refinar requisitos    | PI                | FI                    | Retirar essa parte do processo, que é redundante com a atividade de Validar Requisito.                                                                     | Could Have | Evita retrabalho mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada.                                                    |
+| Documentar requisitos | PI                | FI                    | Definir melhor a granularidade dos requisitos e definição de hierarquia dos requisitos.                                                                    | Could Have | O maior detalhamento dos requisitos permite uma melhor compreensão, mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
+| Validar requisitos    | FI                | FI                    | -                                                                                                                                                          | -          | -                                                                                                                                                                  |
+| Planejar Release      | NI                | PI                    | <ul><li> Alterar processo para embarcar a equipe da auditoria, que já existe.</li><li> Detalhar atividades.</li></ul>                                                               | Must Have  | Inadequado por definir auditoria para a equipe de desenvolvimento, deve ser direcionada a uma equipe específica para esta proposta.                                |
+
+### Atividades de Desenvolvimento
+
 
 | Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Elicitar requisitos | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Analisar requisitos</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">FI</th>
-      <th style="text-align:left">
-        <p>Refinamento deve ser feito internamente na equipe, como definição de escopo
-          e de viabilidade do projeto.</p>
-        <p>Especificar tarefa de viabilidade do projeto.</p>
-      </th>
-      <th style="text-align:left">Could Have</th>
-      <th style="text-align:left">A ausência de uma tarefa de viabilidade do projeto prejudica a definição
-        de um escopo de maior valor.</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| Refinar requisitos | PI | FI | Retirar essa parte do processo, que é redundante com a atividade de Validar Requisito. | Could Have | Evita retrabalho mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Documentar requisitos | PI | FI | Definir melhor a granularidade dos requisitos e definição de hierarquia dos requisitos. | Could Have | O maior detalhamento dos requisitos permite uma melhor compreensão, mas não é tão essencial porque a atividade relacionada a elicitar requisitos já foi realizada. |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| Validar requisitos | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Planejar Release</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">PI</th>
-      <th style="text-align:left">
-        <p>Alterar processo para embarcar a equipe da auditoria, que já existe.</p>
-        <p>Detalhar atividades.</p>
-      </th>
-      <th style="text-align:left">Must Have</th>
-      <th style="text-align:left">Inadequado por definir auditoria para a equipe de desenvolvimento, deve
-        ser direcionada a uma equipe específica para esta proposta.</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Planejar Sprint | LI | FI | Documentar corretamente a participação do PO e do Scrum Master, que estão sem definição clara de respsonsabilidades. | Must Have | Os papeis do PO e do Scrum Master são de suma importância para o andamento do projeto, principalmente no que tange a definição do produto e produtividade da equipe. |
 | Desenvolver | FI | FI | - | - | - |
@@ -207,50 +73,13 @@ Falar sobre o método utilizado para definição das priorizações.
 ### Atividades de Definição
 
 | Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
+|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 | Criar/Revisar plano de medição | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Estabelecer objetivos de medição | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Especificar questões | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Identificar métricas | FI | FI | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Validar objetivos, questões e métricas | NI | NI | Produzir um artefato que comprove a execução dessa atividade. | Must Have | A inexistência de um artefato que comprove a execução da atividade compromete a mitigação de problemas. |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Definir rastreabilidade</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">NI</th>
-      <th style="text-align:left">
-        <p>Detalhar a atividade e o processo de rastreio.</p>
-        <p>Especificar documento de rastreabilidade.</p>
-      </th>
-      <th style="text-align:left">Must Have</th>
-      <th style="text-align:left">Os textos estão rasos e não servem como base para criar a rastreabilidade.</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| Processo/Atividade | Grau de Definição | Grau de Implementação | Ação de Melhoria | Prioridade | Justificativa |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Separação de Milestones | FI | NI | Criação e atualização de milestones | Should Have | A separação de milestones é importante para a melhor organização das tarefas, apresentando em qual ciclo do projeto elas foram realizadas. |
-| Utilização do Kanban | FI | PI | Atualizar o zenhub | Shoud Have | Utilizar o kanban é de grande importancia para que, tanto o time quanto observadores, estejam aptos a saber o progresso do trabalho. |
-| Utilização de Labels | FI | FI | - | - | - |
-| Burndown | FI | NI | Gerar burndown a partir do zenhub | Could Have | Todo projeto que possui trabalho mensuravel por tempo pode possuir um burndown, porém é dispensável. |
+|Definir rastreabilidade | NI | NI |<ul><li>Detalhar a atividade e o processo de rastreio.</li><li>Especificar documento de rastreabilidade.</li></ul> | Must Have | Os textos estão rasos e não servem como base para criar a rastreabilidade. |
 
 ### Atividades de Coleta de Dados
 
@@ -266,8 +95,6 @@ Falar sobre o método utilizado para definição das priorizações.
 | Analisar Dados | LI | NY | Analisar dados. | Must Have | - |
 | Comunicar Resultado | LI | NY | Todos os resultados devem ser postados na wiki e comunicados através de issues no GitHub | Must Have | Falta centralização e transparência dos resultados obtidos |
 | Identificar Melhorias | LI | NY | As melhorias devem ser identificadas em forma de planilhas deixando claras as atividades a serem refatoradas. | Must Have | As melhorias precisam ser documentadas de maneira clara para facilitar a execução. |
-
-
 
 ## Garantia de Qualidade
 
@@ -288,5 +115,5 @@ Falar sobre o método utilizado para definição das priorizações.
 | Uso de Checklist | FI | LI | Terminar de implementar o checklist em todos as auditorias. Atualmente apenas 6 de 10 foram implementadas. | Must Have | O checklist é um elemento essencial para a aplicação e relato dos resultados da auditoria. |
 | Realização de Entrevista | FI | LI | Terminar de relatar as entrevistas em todos as auditorias. Atualmente apenas 6 de 10 foram implementadas. | Must Have | É importante ter o relato das entrevistas, para registro e identificação de não conformidades e pontos de melhoria. |
 | Levantar Não Conformidades | FI | LI | Terminar de relatar as não conformidade em todos as auditorias. Atualmente apenas 6 de 10 foram relatadas. | Must Have | O relato das conformidades/não conformidades é o objetivo principal da aplicaçao de auditorias. |
-| Resultado do Ciclo | FI | NY | O projeto ainda não alcaçou este estágio no ciclo de vida. |  |  |
+| Resultado do Ciclo | FI | NY | O projeto ainda não alcaçou este estágio no ciclo de vida. | - |  -|
 
